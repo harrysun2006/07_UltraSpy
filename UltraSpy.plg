@@ -1,0 +1,69 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: UltraSpy - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/UltraSpy.res" /d "_DEBUG" "E:\Projects\Test\COM\UltraSpy\UltraSpy.rc"" 
+Creating temporary file "C:\Temp\RSPBF6.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/UltraSpy.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Projects\Test\COM\UltraSpy\FlashSink.cpp"
+"E:\Projects\Test\COM\UltraSpy\FlashSink3.cpp"
+"E:\Projects\Test\COM\UltraSpy\IEHelper.cpp"
+"E:\Projects\Test\COM\UltraSpy\IESink.cpp"
+"E:\Projects\Test\COM\UltraSpy\MainDlg.cpp"
+"E:\Projects\Test\COM\UltraSpy\Spyer.cpp"
+"E:\Projects\Test\COM\UltraSpy\Test.cpp"
+"E:\Projects\Test\COM\UltraSpy\UltraSpy.cpp"
+]
+Creating command line "cl.exe @C:\Temp\RSPBF6.tmp" 
+Creating temporary file "C:\Temp\RSPBF7.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/UltraSpy.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Projects\Test\COM\UltraSpy\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Temp\RSPBF7.tmp" 
+Creating temporary file "C:\Temp\RSPBF8.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/UltraSpy.pdb" /debug /machine:I386 /out:"UltraSpy.exe" /pdbtype:sept 
+.\Debug\FlashSink.obj
+.\Debug\FlashSink3.obj
+.\Debug\IEHelper.obj
+.\Debug\IESink.obj
+.\Debug\MainDlg.obj
+.\Debug\Spyer.obj
+.\Debug\StdAfx.obj
+.\Debug\Test.obj
+.\Debug\UltraSpy.obj
+.\Debug\UltraSpy.res
+]
+Creating command line "link.exe @C:\Temp\RSPBF8.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+FlashSink.cpp
+FlashSink3.cpp
+IEHelper.cpp
+IESink.cpp
+MainDlg.cpp
+Spyer.cpp
+Test.cpp
+UltraSpy.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/UltraSpy.bsc"  .\Debug\StdAfx.sbr .\Debug\FlashSink.sbr .\Debug\FlashSink3.sbr .\Debug\IEHelper.sbr .\Debug\IESink.sbr .\Debug\MainDlg.sbr .\Debug\Spyer.sbr .\Debug\Test.sbr .\Debug\UltraSpy.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+UltraSpy.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

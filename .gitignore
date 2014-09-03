@@ -1,0 +1,5 @@
+.settings/
+*.exe
+*.ncb
+*.opt
+*.ilk
